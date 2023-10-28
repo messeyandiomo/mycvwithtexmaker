@@ -1,0 +1,150 @@
+%% start of file `template.tex'.
+%% Copyright 2006-2015 Xavier Danaux (xdanaux@gmail.com).
+%
+% This work may be distributed and/or modified under the
+% conditions of the LaTeX Project Public License version 1.3c,
+% available at http://www.latex-project.org/lppl/.
+
+
+\documentclass[11pt,a4paper,sans,usenames,dvipsnames]{moderncv}        % possible options include font size ('10pt', '11pt' and '12pt'), paper size ('a4paper', 'letterpaper', 'a5paper', 'legalpaper', 'executivepaper' and 'landscape') and font family ('sans' and 'roman')
+
+% moderncv themes
+\moderncvstyle{casual}                             % style options are 'casual' (default), 'classic', 'banking', 'oldstyle' and 'fancy'
+\moderncvcolor{green}                               % color options 'black', 'blue' (default), 'burgundy', 'green', 'grey', 'orange', 'purple' and 'red'
+%\renewcommand{\familydefault}{\sfdefault}         % to set the default font; use '\sfdefault' for the default sans serif font, '\rmdefault' for the default roman one, or any tex font name
+%\nopagenumbers{}                                  % uncomment to suppress automatic page numbering for CVs longer than one page
+
+% character encoding
+%\usepackage[utf8]{inputenc}                       % if you are not using xelatex ou lualatex, replace by the encoding you are using
+%\usepackage{CJKutf8}                              % if you need to use CJK to typeset your resume in Chinese, Japanese or Korean
+
+% adjust the page margins
+\usepackage[scale=0.75]{geometry}
+\usepackage{graphicx}
+\setlength{\hintscolumnwidth}{4cm}                % if you want to change the width of the column with the dates
+%\setlength{\makecvtitlenamewidth}{10cm}           % for the 'classic' style, if you want to force the width allocated to your name and avoid line breaks. be careful though, the length is normally calculated to avoid any overlap with your personal info; use this at your own typographical risks...
+
+% personal data
+\name{André Ebénézer}{Messey à Ndiomo}
+
+\title{Summary\linebreak \small\textit{\color{OliveGreen}{Experienced Computer System Engineer with a demonstrated history of working in the government administration industry. Skilled in JavaScript, Java, Python (Programming Language), SQL, Oracle
+Database and Linux System Administration. Strong information
+technology professional with a Master’s Degree focused in Computer
+Science from African Institute of Computer Science.}}}                               % optional, remove / comment the line if not wanted
+\address{Mbog-Abang Odza}{Yaoundé}{Cameroon}% optional, remove / comment the line if not wanted; the "postcode city" and "country" arguments can be omitted or provided empty
+\phone[mobile]{+(237)~671~937~245}                   % optional, remove / comment the line if not wanted; the optional "type" of the phone can be "mobile" (default), "fixed" or "fax"
+\phone[mobile]{+(237)~677~889~348}
+\email{messey.bilal@gmail.com}                               % optional, remove / comment the line if not wanted
+\homepage{messeyandiomo.onrender.com}                       % optional, remove / comment the line if not wanted
+\social[linkedin]{messey-a-ndiomo-andre-ebenezer-7547bb98}                        % optional, remove / comment the line if not wanted
+\social[facebook]{http://web.facebook.com/bilal.luqman.5}                             % optional, remove / comment the line if not wanted
+\social[github]{messeyandiomo}                              % optional, remove / comment the line if not wanted
+%\extrainfo{additional information}                 % optional, remove / comment the line if not wanted
+\photo[64pt][0.4pt]{messey_1}                       % optional, remove / comment the line if not wanted; '64pt' is the height the picture must be resized to, 0.4pt is the thickness of the frame around it (put it to 0pt for no frame) and 'picture' is the name of the picture file
+%\quote{}                                 % optional, remove / comment the line if not wanted
+
+% bibliography adjustements (only useful if you make citations in your resume, or print a list of publications using BibTeX)
+%   to show numerical labels in the bibliography (default is to show no labels)
+\makeatletter\renewcommand*{\bibliographyitemlabel}{\@biblabel{\arabic{enumiv}}}\makeatother
+%   to redefine the bibliography heading string ("Publications")
+%\renewcommand{\refname}{Articles}
+
+% bibliography with mutiple entries
+%\usepackage{multibib}
+%\newcites{book,misc}{{Books},{Others}}
+%----------------------------------------------------------------------------------
+%            content
+%----------------------------------------------------------------------------------
+\begin{document}
+%\begin{CJK*}{UTF8}{gbsn}                          % to typeset your resume in Chinese using CJK
+%-----       resume       ---------------------------------------------------------
+\makecvtitle
+
+\section{Experience}
+%\subsection{Vocational}
+\cventry{March 2022--Present}{Freelance Web Developer}{Personal Project}{Yaoundé Cameroun}{}{\href{https://downloadaccelerator.pythonanywhere.com}{downloadaccelerator website \includegraphics[scale=.030]{daclogo.png}} (\textbf{https://downloadaccelerator.pythonanywhere.com}).\newline{}\textbf{Skills: JavaScript-JQuery, Django-Python}}
+
+\medskip 
+
+\cventry{March 2020--Present}{Web Developer}{Personal Project}{Yaoundé Cameroun}{}{\href{https://addons.mozilla.org/fr/firefox/addon/download\_accelerator/}{Firefox Addon \includegraphics[scale=.030]{daclogo.png}} (\textbf{https://addons.mozilla.org/fr/firefox/addon/download\_accelerator/}).\newline{} This addon makes easy the downloads of videos from Firefox browser. it adds context menu item for links, also adds a download panel, and helps to intercept downloads. But Download Accelerator addon does not work alone. To download files, you must also install downloadaccelerator application that you can get from \textbf{\href{https://snapcraft.io/downloadaccelerator}{snapstore}} (\textbf{https://snapcraft.io/downloadaccelerator}). Of course downloadaccelerator application only works on Linux systems(Debian and Ubuntu) for the moment.\newline{}\textbf{Skills: JavaScript}}
+
+\medskip 
+
+\cventry{April 2018--Present}{Application Developer}{Personal Project}{Yaoundé Cameroun}{}{\href{https://snapcraft.io/downloadaccelerator}{The snap \textbf{downloadaccelerator} \includegraphics[scale=.030]{daclogo.png}} (\textbf{https://snapcraft.io/downloadaccelerator}) is a free and open source software application
+that allows quickly downloading of files on the web. it only works on Linux
+systems Debian and Ubuntu for the moment.\newline{}\textbf{Skills: Java, Shell Bash, Linux}}
+
+\medskip 
+
+\cventry{December 2011--Present}{Computer System Engineer}{Cameroon Supreme State Audit}{Yaoundé Cameroun}{}{}
+
+\medskip 
+
+\cventry{June 2023--September 2023}{Freelance Web Developer}{Personal Project}{Yaoundé Cameroun}{}{\href{https://messeyandiomo.onrender.com}{My Personal website \includegraphics[scale=.15]{manstudio.png}} (\textbf{https://messeyandiomo.onrender.com}).\newline{}%
+\textbf{Skills: ReactJS, NodeJS}}%
+
+\medskip
+
+\cventry{March 2011--July 2011}{Software Engineer}{Better Computing}{Libreville Gabon}{}{Implementation of a multimedia messaging service and electronic wallet
+management system\newline{}\textbf{Skills: C, Linux}}
+
+\medskip 
+
+\cventry{January 2010--February 2011}{System Engineer}{Software Engineering Company}{Libreville Gabon}{}{Information system verification mission of OPHG(Office of Ports and harbors of
+Gabon)\newline{}}
+
+\medskip 
+
+\cventry{July 2009--December 2010}{Intern Engineer}{African Laboratory of Computer Science and Applied Mathematics}{Libreville Gabon}{}{Implementation of a task distributor for a local network in a Linux environment\newline{}\textbf{Skills: C, Linux}}
+
+%\subsection{Miscellaneous}
+%\cventry{year--year}{Job title}{Employer}{City}{}{Description}
+
+\bigskip 
+
+\section{Education}
+\cventry{2006--2009}{Master’s Degree}{African Institute of Computer Science}{Libreville Gabon}{\textit{}}{\textbf{Information Systems and Software Engineer}}  % arguments 3 to 6 can be left empty
+%\cventry{year--year}{Degree}{Institution}{City}{\textit{Grade}}{Description}
+
+%\section{Master thesis}
+\cvitem{title}{\emph{Implementation of a task distributor for a local network in a Linux environment}}
+\cvitem{supervisors}{Dr Pierre Moukeli Mbindzoukou, Dr Roger Noussi}
+\cvitem{description}{It is a question of setting up a utility whose role is to schedule tasks by using the machines of the local network as execution units}
+
+\medskip 
+
+\cventry{2003--2006}{Bachelor’s Degree}{University of Yaounde I}{}{}{\textbf{Bachelor’s Degree in Mathematics}}
+
+\bigskip 
+
+\section{Certifications}
+\cvitemwithcomment{October 14, 2022}{\href{https://www.linkedin.com/learning/certificates/51390b5dbc9f71b91c33878f4a64550c89b1565601e8d7b4d2d93adc2d867c5d}{\textbf{Cert Prep: 1 Capacity Planing}}}{LPIC-2 Linux Engineer (201-450)}
+\cvitemwithcomment{October 9, 2022}{\href{https://www.linkedin.com/learning/certificates/13261014963ac0333149a85accd2d311d4b8a8e981b1317af946acb749f60305}{\textbf{Cert Prep: 7 System Maintenance}}}{LPIC-2 Linux Engineer}
+\cvitemwithcomment{October 7, 2022}{\href{https://www.linkedin.com/learning/certificates/5a6eb54a09d876edaa2e86c71c929c06fe74a447aab8edf90edb783111821e55}{\textbf{Cert Prep: 6 Networking Configuration}}}{LPIC-2 Linux Engineer}
+\cvitemwithcomment{October 7, 2022}{\href{https://www.linkedin.com/learning/certificates/c2e9c54f380e834f2031ce77289b8fc1720d59e9ed35a1e346af57b7f7141f0b}{\textbf{Cert Prep: 5 Advanced Storage Device Administration}}}{LPIC-2}
+\cvitemwithcomment{September 30, 2022}{\href{https://www.linkedin.com/learning/certificates/aec4719accc8ceb9405272b6abecac1c4a4a23a288ff309cff601f594970a167}{\textbf{Cert Prep: 4 Filesystem and Devices}}}{LPIC-2}
+\cvitemwithcomment{September 26, 2022}{\href{https://www.linkedin.com/learning/certificates/7dedfcb4295bf5bb2c367361e343aa4ffa23a30491a9915e850118c29c86dea3}{\textbf{Cert Prep: 3 System Startup}}}{LPIC-2 Linux Engineer (201-450)}
+\cvitemwithcomment{September 18, 2022}{\href{https://www.linkedin.com/learning/certificates/120220af758e14c57820c6b5c8311e5f55f8d941b6af2a0828be62938825aebb}{\textbf{Cert Prep: 2 Linux Kernel}}}{LPIC-2 Linux Engineer (201-450)}
+
+
+\medskip 
+
+\cvitemwithcomment{August 11, 2021}{\href{https://www.udemy.com/certificate/UC-e5b14d19-70a4-4505-9a67-0d91a8ae327e/}{\textbf{learn data science hands-on with Python}}}{https://www.udemy.com/certificate/UC-e5b14d19-70a4-4505-9a67-0d91a8ae327e/}
+
+\medskip 
+
+\cvitemwithcomment{June 2010 - September 2010}{\href{https://www.lpi.org}{\textbf{System and Network Administration in Linux}}}{Member id : LPI000207214, Verification code: khmlp7wchk at https://www.lpi.org}
+
+\bigskip 
+
+\section{Languages}
+\cvitemwithcomment{French}{Advanced}{read, speak, write}
+\cvitemwithcomment{English}{Intermediate}{read, speak, write}
+\cvitemwithcomment{Arabic}{basic}{read, write}
+
+
+
+\end{document}
+
+
+%% end of file `template.tex'.
